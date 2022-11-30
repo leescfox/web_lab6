@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grades_style.css">
+    <title>Зачётная кринжка</title>
+</head>
+
+<body>
+    <h1 class="h1">Зачётная книжка</h1>
+    <form action="#" method="post" class="grades_form">
+        <table>
+            <thead>
+                <th>Дисциплина</th>
+                <th>Оценка</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>АИСД</td>
+                    <td>
+                        <select name="aisd_grade">
+                            <option value="5">Отлично</option>
+                            <option value="4">Хорошо</option>
+                            <option value="3">Удовлетворительно</option>
+                            <option value="2" selected>Неудовлетворительно</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Физика</td>
+                    <td>
+                        <div class="pass_wrapper">
+                            <label><input type="radio" name="physics_pass" value="true">Зачёт</label>
+                            <label><input type="radio" name="physics_pass" value="false" checked>Незачёт</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Методы оптимизации</td>
+                    <td>
+                        <select name="optimisation_grade">
+                            <option value="5">Отлично</option>
+                            <option value="4">Хорошо</option>
+                            <option value="3">Удовлетворительно</option>
+                            <option value="2" selected>Неудовлетворительно</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Web-технологии</td>
+                    <td>
+                        <div class="pass_wrapper">
+                            <label><input type="radio" name="web_pass" value="true">Зачёт</label>
+                            <label><input type="radio" name="web_pass" value="false" checked>Незачёт</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Экономика</td>
+                    <td>
+                        <div class="pass_wrapper">
+                            <label><input type="radio" name="economics_pass" value="true">Зачёт</label>
+                            <label><input type="radio" name="economics_pass" value="false" checked>Незачёт</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>История</td>
+                    <td>
+                        <div class="pass_wrapper">
+                            <label><input type="radio" name="history_pass" value="true">Зачёт</label>
+                            <label><input type="radio" name="history_pass" value="false" checked>Незачёт</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Статистический анализ</td>
+                    <td>
+                        <select name="stats_grade">
+                            <option value="5">Отлично</option>
+                            <option value="4">Хорошо</option>
+                            <option value="3">Удовлетворительно</option>
+                            <option value="2" selected>Неудовлетворительно</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="buttons_wrapper">
+            <button type="submit" class="btn">Отправить</button>
+            <button type="reset" class="btn">Очистить</button>
+        </div>
+    </form>
+    <div class="link_wrapper">Вернуться к <a href="index.html">личной информации</a></div>
+</body>
+
+</html>

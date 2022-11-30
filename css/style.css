@@ -1,0 +1,39 @@
+.sides_wrapper {
+    display: flex;
+}
+
+.side_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.side_wrapper:first-child {
+    margin: 0 10px 0 0;
+}
+
+.side_wrapper label {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 0;
+}
+
+.interest_checkbox_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 15px 0;
+}
+
+.textarea {
+    resize: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 100vw;
+    cursor: pointer;
+}
+
+.grades_link_wrapper {
+    margin: 20px 0 0 0;
+}

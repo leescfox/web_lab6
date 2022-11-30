@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="h1">Личная анкета пользователя</h1>
+    <form action="#" method="post">
+        <div class="sides_wrapper">
+            <div class="side_wrapper">
+                <label>Имя:<input type="text" name="name" required></label>
+                <label>Фамилия:<input type="text" name="surname" required></label>
+                <label>Область:<input type="text" name="region"></label>
+                <label>Улица, дом:<input type="text" name="street"></label>
+                <label>Квартира:<input type="number" name="apartment_number"></label>
+            </div>
+            <div class="side_wrapper">
+                <label>Username:<input type="text" name="username" required></label>
+                <label>Пароль:<input type="password" name="password" required></label>
+                <label>Город:<input type="text" name="city"></label>
+                <label>Индекс:<input type="number" name="index"></label>
+            </div>
+        </div>
+        <h2 class="h2">Укажите свои интересы</h2>
+        <div class="interest_checkbox_wrapper">
+            <label><input type="checkbox" name="interest_1" value="true">Киберспорт</label>
+            <label><input type="checkbox" name="interest_2" value="true">Футбол</label>
+            <label><input type="checkbox" name="interest_3" value="true">Танцы</label>
+            <label><input type="checkbox" name="interest_4" value="true">Шахматы</label>
+            <label><input type="checkbox" name="interest_5" value="true">Рисование</label>
+        </div>
+        <textarea placeholder="Другие интересы..." name="additional_interests" class="textarea"></textarea>
+        <div class="buttons_wrapper">
+            <button type="submit" class="btn">Отправить</button>
+            <button type="reset" class="btn">Очистить</button>
+        </div>
+    </form>
+    <div class="grades_link_wrapper">Дополнительно вы можете <a href="grades.html">заполнить зачётную книжку</a></div>
+</body>
+
+</html>

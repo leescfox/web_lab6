@@ -1,0 +1,26 @@
+.grades_form table,
+.grades_form th,
+.grades_form td,
+.grades_form tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.pass_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons_wrapper {
+    margin: 10px 0 0 0;
+}
+
+.btn {
+    border-radius: 100vw;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.link_wrapper {
+    margin: 30px 0 0 0;
+}
